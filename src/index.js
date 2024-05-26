@@ -37,12 +37,12 @@ const db = getFirestore();
 
 // Get the form element
 const form = document.getElementById('form-container');
-
+console.log(form);
 // Add submit event listener to the form
-document.addEventListener('DOMContentLoaded',function(){
+
     form.addEventListener('submit', async function(event) {
     event.preventDefault(); // Prevent default form submission behavior
-
+    console.log(form);
     // Get form data
     const formData = new FormData(form);
     const nameOfSong = formData.get('item-name');
@@ -68,4 +68,4 @@ document.addEventListener('DOMContentLoaded',function(){
         console.error("Error adding document: ", error);
     }
     })
-});
+;
