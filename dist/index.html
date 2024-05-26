@@ -1,10 +1,36 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Suggestion Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="form-container">
+        <h2>Suggest a Recommendation</h2>
+        <form>
+            <div class="form-group">
+                <label for="item-name">Name of Song/Article etc.</label>
+                <input type="text" id="item-name" name="item-name" required>
+            </div>
+            <div class="form-group">
+                <label for="creator-name">Name of Creator</label>
+                <input type="text" id="creator-name" name="creator-name" required>
+            </div>
+            <div class="form-group">
+                <label for="recommended-by">Recommended by</label>
+                <input type="text" id="recommended-by" name="recommended-by" required>
+            </div>
+            <div class="form-group">
+                <label for="notes">Notes (<150 characters)</label>
+                <textarea id="notes" name="notes" maxlength="150"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
+<script src="bundle.js"></script>
 </html>
