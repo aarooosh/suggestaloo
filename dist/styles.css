@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f7f7f7;
+    background-color: #12012e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .form-container {
-    background-color: #ffffff;
+    background-color: #21044d;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333333;
+    color: #587078;
 }
 
 .form-group {
@@ -29,13 +29,13 @@ h2 {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #555555;
+    color: #517b93;
 }
 
 input, textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #cccccc;
+    border: 1px solid #120231;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -48,8 +48,8 @@ textarea {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #257592;
+    color: rgb(165, 109, 233);
     border: none;
     border-radius: 5px;
     cursor: pointer;
